@@ -1,0 +1,158 @@
+- @sitename
+
+
+!!! 5
+%html{html_attrs}
+  %head
+    %title= @title
+    %link{:href => "stylesheets/stylesheet.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
+    %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.5.min.js"}
+    %script{:type => "text/javascript", :src => "javascripts/jquery.color.js"}
+    %script{:type => "text/javascript", :src => "javascripts/menu-control.js"}
+    %script{:type => "text/javascript", :src => "javascripts/iscroll.js"}
+    %script{:src => "javascripts/prototype.js", :type => "text/javascript"}
+    %script{:src => "javascripts/scriptaculous.js?load=effects,builder", :type => "text/javascript"}
+    %script{:src => "javascripts/lightbox.js", :type => "text/javascript"}
+    %link{:href => "stylesheets/lightbox.css", :media => "screen", :rel => "stylesheet", :type => "text/css"}/
+    %script{:type => "text/javascript"}
+
+    %style{:media => "all", :type => "text/css"}
+
+
+  %body{:onorientationchange =>"ipadFunc();"}
+  .bg2
+  .bg1
+  .header
+  .logo
+  .menu-container
+    %ul.menu
+      %li
+        %a{:href => "#", :id => "main-1-link"} HOME
+        .menu-hl
+      %li
+        %a{:href => "#", :id => "main-2-link"} ABOUT
+        .menu-hl
+      %li
+        %a{:href => "#", :id => "main-3-link"} SERVICE
+        .menu-hl
+      %li
+        %a{:href => "#", :id => "main-4-link"} PORTFOLIO
+        .menu-hl
+      %li
+        %a{:href => "#", :id => "main-5-link"} CONTACT
+        .menu-hl
+      //%li
+      //  %a{:href => "#", :id => "main-6-link"} CONTACT
+      //  .menu-hl
+      //%li
+      //  %a{:href => "#", :id => "main-8-link"} DISTRIBUTORS
+      //  .menu-hl{:style => "margin-left:-8px;"}
+  .content-container#page1
+    #page-1-content
+      .page-title Home
+      %ul.submenu
+        %li.dark-blue#page1-sub1
+          %a{:href => "#"} About us
+        %li.blue#page1-sub2
+          %a{:href => "#"} Our Missions
+        %li.dark-blue#page1-sub3
+          %a{:href => "#"} Excellence
+      .content-type-1#page1-sub1-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          .box-text-long
+            %h2 Who we are
+            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          .box-text-short
+            %p.slogan Architectural Design & Innovation
+      .content-type-1#page1-sub2-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          %h2 Dedicated to beauty
+          %p Creme de-la Creme Hair is an upscale hair boutique that was established to offer only the very best in exotic human hair extensions to customers around the world that want and deserve the very best hair that money can buy. We import the most lustrous, pure, 100% cuticle, virgin remy hair directly from India, Brazil, Malaysia and Europe for re-sell in the United States.
+          %p Creme de la Creme Hair has gained a reputation for a superior product and when you use our hair you will immediately recognize the difference. So rest assured that when you make a purchase from Creme de la Creme Hair you are getting the best hair that money can buy. For the most elite hair on the market… Creme de la Creme Hair!
+      .content-type-1#page1-sub3-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          %h2 Dedicated to beauty
+          %p Creme de-la Creme Hair is an upscale hair boutique that was established to offer only the very best in exotic human hair extensions to customers around the world that want and deserve the very best hair that money can buy. We import the most lustrous, pure, 100% cuticle, virgin remy hair directly from India, Brazil, Malaysia and Europe for re-sell in the United States.
+          %p Creme de la Creme Hair has gained a reputation for a superior product and when you use our hair you will immediately recognize the difference. So rest assured that when you make a purchase from Creme de la Creme Hair you are getting the best hair that money can buy. For the most elite hair on the market… Creme de la Creme Hair!
+  .content-container#page2
+    #page-2-content
+      .page-title Home
+      %ul.submenu
+        %li.dark-blue#page2-sub1
+          %a{:href => "#"} About us
+      .content-type-1#page2-sub1-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          .box-text-long
+            %h2 Who we are
+            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          .box-text-short
+            %p.slogan Architectural Design & Innovation
+  .content-container#page3
+    #page-3-content
+      .page-title Services
+      %ul.submenu
+        %li.dark-blue#page3-sub1
+          %a{:href => "#"} Commercial
+        %li.blue#page3-sub1
+          %a{:href => "#"} Private
+      .content-type-1#page3-sub1-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          .box-text-long
+            %h2 Who we are
+            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          .box-text-short
+            %p.slogan Architectural Design & Innovation
+  .content-container#page4
+    #page-4-content
+      .page-title Portfolio
+      %ul.submenu
+        %li.dark-blue#page4-sub1
+          %a{:href => "#"} Commercial
+        %li.blue#page3-sub1
+          %a{:href => "#"} Private
+      .content-type-1#page4-sub1-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          .box-text-long
+            %h2 Who we are
+            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          .box-text-short
+            %p.slogan Architectural Design & Innovation      
+  .content-container#page5
+    #page-5-content
+      .page-title Contact
+      %ul.submenu
+        %li.dark-blue#page5-sub1
+          %a{:href => "#"} Contact
+        %li.blue#page3-sub1
+          %a{:href => "#"} Direction
+      .content-type-1#page5-sub1-page
+        .content-type-1-part-1
+          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
+          .box-text-long
+            %h2 Who we are
+            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          .box-text-short
+            %p.slogan Architectural Design & Innovation
+  .upper-footer
+    All contents &copy; copyright 2010 - 2011  Creme da Creme. All rights reserved     |    Terms & conditions    |    Privacy policy    |    Terms of use     
+  //footer
+  // .footer-right
+  //   %form#form1{:action => "", :method => "post", :name => "form1"}
+  //     Sign up for our newsletter    |      Name:
+  //     %input{:name => "text", :type => "text"}
+  //     Email:
+  //     %input{:name => "text", :type => "text"}
+  //     %input{:name => "submit", :type => "button", :value => "Submit"}
+  // .footer-left
+  //   Powered by: media3creative.com
