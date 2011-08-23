@@ -6,7 +6,7 @@
   %head
     %title= @title
     %link{:href => "stylesheets/stylesheet.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
-    %script{:type => "text/javascript", :src => "http://code.jquery.com/jquery-1.5.min.js"}
+    %script{:type => "text/javascript", :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"}
     %script{:type => "text/javascript", :src => "javascripts/jquery.color.js"}
     %script{:type => "text/javascript", :src => "javascripts/menu-control.js"}
     %script{:type => "text/javascript", :src => "javascripts/iscroll.js"}
@@ -30,10 +30,10 @@
         %a{:href => "#", :id => "main-1-link"} HOME
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-2-link"} ABOUT
+        %a{:href => "#", :id => "main-2-link"} TEAM
         .menu-hl
       %li
-        %a{:href => "#", :id => "main-3-link"} SERVICE
+        %a{:href => "#", :id => "main-3-link"} SERVICES
         .menu-hl
       %li
         %a{:href => "#", :id => "main-4-link"} PORTFOLIO
@@ -56,96 +56,148 @@
         %li.blue#page1-sub2
           %a{:href => "#"} Our Missions
         %li.dark-blue#page1-sub3
-          %a{:href => "#"} Excellence
+          %a{:href => "#"} Culture
       .content-type-1#page1-sub1-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          .box-text-long
-            %h2 Who we are
-            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
-          .box-text-short
-            %p.slogan Architectural Design & Innovation
+        %image{:width => "700px", :height => "357px", :src => "/images/content_pic_1.jpg"}
+        .box-text-long
+          %h2 Who we are
+          %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
+          %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+        .box-text-short
+          %p.slogan Architectural Design & Innovation
       .content-type-1#page1-sub2-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          %h2 Dedicated to beauty
-          %p Creme de-la Creme Hair is an upscale hair boutique that was established to offer only the very best in exotic human hair extensions to customers around the world that want and deserve the very best hair that money can buy. We import the most lustrous, pure, 100% cuticle, virgin remy hair directly from India, Brazil, Malaysia and Europe for re-sell in the United States.
-          %p Creme de la Creme Hair has gained a reputation for a superior product and when you use our hair you will immediately recognize the difference. So rest assured that when you make a purchase from Creme de la Creme Hair you are getting the best hair that money can buy. For the most elite hair on the market… Creme de la Creme Hair!
+        %image{:width => "700px", :height => "150px", :src => "/images/content_pic_2.png"}
+        .box-text-long
+          %h2 Our Mission
+          %p Our mission, "healthy buildings, healthy people, healthy planet," is perhaps most evident in our design philosophy and practice. Design is the central focus for many an architecture firm, often becoming its brand and identity. At Kirksey, we agree that design is important; yet rather than defining who we are through a signature style or brand, design is a critical component of what we do — Service. Service to our clients, service to the building's users, service to the community, and to the environment.
+          %p It is our divine responsibility as architects, designers, and planners to design high-performing, healthy, and beautiful buildings that positively affect the people, environment, and communities they serve. For each project, we first consider our client's goals and programmatic needs — both immediate and future — then integrate those with site and climate conditions, and the project's role within its community and environment. Great design, and consequently great service, can be accomplished only through the consideration and balancing of all of these factors.
+        .box-text-short
+          %p.slogan Healthy Buildings Healthy People
       .content-type-1#page1-sub3-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          %h2 Dedicated to beauty
-          %p Creme de-la Creme Hair is an upscale hair boutique that was established to offer only the very best in exotic human hair extensions to customers around the world that want and deserve the very best hair that money can buy. We import the most lustrous, pure, 100% cuticle, virgin remy hair directly from India, Brazil, Malaysia and Europe for re-sell in the United States.
-          %p Creme de la Creme Hair has gained a reputation for a superior product and when you use our hair you will immediately recognize the difference. So rest assured that when you make a purchase from Creme de la Creme Hair you are getting the best hair that money can buy. For the most elite hair on the market… Creme de la Creme Hair!
+        %image{:width => "700px", :height => "150px", :src => "/images/content_pic_3.jpg"}
+        .box-text-long
+          %h2 Culture
+          %p At Kirksey, we are lucky to work with such talented, earth-conscious, fun, and friendly people. On any given day (especially in the non-summer months), you will find us on the outdoor patio having lunch together, having team meetings, or perhaps enjoying a creative respite from the busy-ness inside. It's also not uncommon to see John Kirksey walking the campus, checking every tree and shrub to make sure they are thriving
+          %p In addition to great co-workers and a fun, healthy, and collaborative work environment, Kirksey values the personal and professional development of each employee by supporting individual initiative and ambition. It is this empowerment and freedom to grow that foster many long-term careers at Kirksey.
+        .box-text-short
+          %p.slogan Architectural Design & Innovation
   .content-container#page2
     #page-2-content
-      .page-title Home
+      .page-title Our Team
       %ul.submenu
         %li.dark-blue#page2-sub1
-          %a{:href => "#"} About us
+          %a{:href => "#"} 
       .content-type-1#page2-sub1-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          .box-text-long
-            %h2 Who we are
-            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
-          .box-text-short
-            %p.slogan Architectural Design & Innovation
+        %image{:width => "700px", :height => "300px", :src => "/images/content_pic_4.jpg"}
+        .box-text-long
+          %h2 Lead by example
+          %p Directed by a Team Leader, each Kirksey team focuses on a specific market and functions as a "firm within a firm," though we regularly collaborate with one another when assembling specific project teams. This team structure benefits each project with highly specialized knowledge developed within the teams and supported by the collective talents and expertise of the whole firm.
+        .box-text-short
+          %p.slogan Integrity and Professionalism
   .content-container#page3
     #page-3-content
       .page-title Services
       %ul.submenu
         %li.dark-blue#page3-sub1
-          %a{:href => "#"} Commercial
-        %li.blue#page3-sub1
-          %a{:href => "#"} Private
+          %a{:href => "#"} 
       .content-type-1#page3-sub1-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          .box-text-long
-            %h2 Who we are
-            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
-          .box-text-short
-            %p.slogan Architectural Design & Innovation
+        %image{:width => "700px", :height => "300px", :src => "/images/content_pic_5.jpg"}
+        .box-text-long
+          %h2 Commercial
+          %p We can help you determine if your building is performing properly through a Measurement and Verification Program. As we say at Kirksey, "if you can't measure it, you can't manage it," so we employ our sophisticated modeling techniques and data collection from your building to determine if your building is performing as it was designed.
+          %ul
+            %li Shopping Center
+            %li Small Businesses
+            %li Salons
+          %h2 Private
+          %p Green building is not just for new construction. Kirksey EcoServices can analyze your existing building and look for green opportunities, such as.
+          %ul
+            %li Houses
+            %li Condo
+            %li Apartments
+        .box-text-short
+          %p.slogan Design to impress & Build to last
   .content-container#page4
     #page-4-content
       .page-title Portfolio
       %ul.submenu
         %li.dark-blue#page4-sub1
-          %a{:href => "#"} Commercial
-        %li.blue#page3-sub1
-          %a{:href => "#"} Private
+          %a{:href => "#"} 
       .content-type-1#page4-sub1-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          .box-text-long
-            %h2 Who we are
-            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
-          .box-text-short
-            %p.slogan Architectural Design & Innovation      
+        %image{:width => "700px", :height => "150px", :src => "/images/content_pic_6.jpg"}
+        .box-text-long
+          %br
+          %p They inform and inspire everything we do, as put forth in our mission: Healthy buildings, healthy people, healthy planet. It is our divine responsibility as architects, designers, and planners to design high-performing, healthy, and beautiful buildings that positively affect the people, environment, and communities they serve.
+          %p And a bit more specifically,
+          %h2 Antoine Store
+          %a{:href => "/images/pics/antoineStore/1_big.jpg", :rel => "lightbox[antoineStore]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/1.jpg"} 
+          %a{:href => "/images/pics/antoineStore/2_big.jpg", :rel => "lightbox[antoineStore]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/2.jpg"} 
+          %a{:href => "/images/pics/antoineStore/3_big.jpg", :rel => "lightbox[antoineStore]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/3.jpg"} 
+          %a{:href => "/images/pics/antoineStore/4_big.jpg", :rel => "lightbox[antoineStore]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/4.jpg"}
+          %a{:href => "/images/pics/antoineStore/5_big.jpg", :rel => "lightbox[antoineStore]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/5.jpg"}
+          %a{:href => "/images/pics/antoineStore/6_big.jpg", :rel => "lightbox[antoineStore]"} 
+            %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/6.jpg"} 
+          %h2 Community
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %h2 Residential
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
+            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
+
+        .box-text-short
+          %p.slogan Design to impress & Build to last     
   .content-container#page5
     #page-5-content
       .page-title Contact
       %ul.submenu
         %li.dark-blue#page5-sub1
-          %a{:href => "#"} Contact
-        %li.blue#page3-sub1
-          %a{:href => "#"} Direction
+          %a{:href => "#"} 
       .content-type-1#page5-sub1-page
-        .content-type-1-part-1
-          %image{:width => "800px", :height => "408px", :src => "/images/content_pic_1.jpg"}
-          .box-text-long
-            %h2 Who we are
-            %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-            %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
-          .box-text-short
-            %p.slogan Architectural Design & Innovation
+        %image{:width => "700px", :height => "300px", :src => "/images/content_pic_7.jpg"}
+        .box-text-long
+          %h2 Phone
+          %p 713-233-1600
+          %h2 Email
+          %p ctgore@sbcglobal.net
+          %h2 Address 
+          %p 611 Houston Ave, HOUSTON, Texas 7007
+        .box-text-short
+          %p.slogan 713-223-1600
   .upper-footer
-    All contents &copy; copyright 2010 - 2011  Creme da Creme. All rights reserved     |    Terms & conditions    |    Privacy policy    |    Terms of use     
+    All contents &copy; copyright 2010 - 2011  Eclipse. All rights reserved     |    Terms & conditions    |    Privacy policy    |    Terms of use     
   //footer
   // .footer-right
   //   %form#form1{:action => "", :method => "post", :name => "form1"}

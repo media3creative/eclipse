@@ -56,10 +56,7 @@
 }
 
 img {
-  border: 2px solid #dad7c5;
-  -moz-box-shadow: 0 0 5px black;
-  -webkit-box-shadow: 0 0 5px black;
-  box-shadow: 0 0 5px black;
+  border: 1px solid #dad7c5;
 }
 
 a {
@@ -178,19 +175,10 @@ ul.menu a:hover {
 
 #page-1-content, #page-2-content, #page-3-content, #page-4-content, #page-5-content, #page-6-content, #page-7-content, #page-8-content {
   z-index: 100;
-  position: relative;
-  float: left;
-  margin-top: 300px;
+  margin-top: 120px;
+  margin-left: 200px;
   width: 960px;
   height: auto;
-}
-
-#page-1-content-bg, #page-2-content-bg, #page-3-content-bg, #page-4-content-bg, #page-5-content-bg, #page-6-content-bg, #page-7-content-bg, #page-8-content-bg {
-  z-index: -1;
-  position: absolute;
-  bottom: 100px;
-  width: 960px;
-  height: 500px;
 }
 
 .menu-hl {
@@ -216,12 +204,12 @@ ul.menu a:hover {
 }
 
 .page-title {
-  position: relative;
-  float: left;
+  position: absolute;
   display: block;
   height: 70px;
   width: 250px;
-  margin-top: -125px;
+  top: 150px;
+  left: 0px;
   background-color: #14446d;
   color: white;
   font-family: Helvetica_utralight;
@@ -232,14 +220,15 @@ ul.menu a:hover {
 }
 
 ul.submenu {
-  position: relative;
-  float: left;
+  position: absolute;
   list-style-type: none;
   letter-spacing: 0.2em;
   text-align: left;
   font-size: 11px;
   font-family: Helvetica_utralight;
   margin-left: -50px;
+  left: 0px;
+  margin-top: 150px;
   display: block;
   height: 27px;
   width: 950px;
@@ -260,6 +249,10 @@ ul.submenu li {
 ul.submenu li a {
   display: inline-block;
   width: 155px;
+}
+
+ul li {
+  color: white;
 }
 
 .content-type-1 {
@@ -285,7 +278,7 @@ ul.submenu li a {
 
 .box-text-long {
   float: left;
-  width: 550px;
+  width: 450px;
   height: auto;
   border-right: 1px solid #dad7c5;
 }
@@ -295,6 +288,14 @@ ul.submenu li a {
   width: 245px;
   height: auto;
   text-align: center;
+}
+
+.image-box-big {
+  border: 1px solid #dad7c5;
+  background-image: url(/images/content_pic_1.jpg);
+  float: left;
+  width: 800px;
+  height: 408px;
 }
 
 .note {
@@ -385,10 +386,11 @@ h1 {
   font-family: Helvetica_utralight;
   font-size: 24px;
   margin-left: 50px;
+  margin-bottom: 15px;
 }
 
 h2 {
-  margin-top: 20px;
+  margin-top: 5px;
   margin-left: 0px;
   font-size: 15px;
   color: #7bb7d6;
