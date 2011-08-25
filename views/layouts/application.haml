@@ -50,29 +50,23 @@
   .content-container#page1
     #page-1-content
       .page-title Home
-      %ul.submenu
+      %ul.submenu{:style => "opacity: 0;"}
         %li.dark-blue#page1-sub1
           %a{:href => "#"} About us
-        %li.blue#page1-sub2
-          %a{:href => "#"} Our Missions
-        %li.dark-blue#page1-sub3
+        //%li.blue#page1-sub2
+        //  %a{:href => "#"} Our Missions
+        %li.blue#page1-sub3
           %a{:href => "#"} Culture
       .content-type-1#page1-sub1-page
         %image{:width => "700px", :height => "357px", :src => "/images/content_pic_1.jpg"}
         .box-text-long
           %h2 Who we are
-          %p Kohn Pedersen Fox Associates (KPF) is one of the world's pre-eminent architecture firms, providing architecture, interior, programming and master planning services for clients in both the public and private sectors. Operating as one firm with six global offices, KPF is led by 20 Principals and 14 Directors. 
-          %p The firm's 500+ staff members come from 43 different countries, speak more than 30 languages, and include over 70 LEED accredited professionals. KPF's diverse portfolio, which features over 70 projects certified or pursuing green building certification, comprises corporate, hospitality, residential, academic, civic, transportation, and mixed-use projects located in more than 35 countries.
+          %p Eclipse Design and Construction is the Houston-based architectural design and drafting firm of Miguel Alvarado. Since 2003, Eclipse's mission has been to create elegant and functional commercial and residential designs for clients at affordable pricing. Each and every project that Eclipse takes on is an opportunity to create uniqueness and beauty, thereby exceeding the expectations of the client.
+          %p The cornerstone of Eclipse Design is the firm's belief in serving the client, and fulfilling all of his needs when it comes to anything related to the entire property. It is the philosophy at Eclipse Design to maintain long-term relationships with its clients, and to be of assistance even after the project is completed. 
+          %p We are passionate about our work. 
+          %p We care about each project like it is our very own.
         .box-text-short
           %p.slogan Architectural Design & Innovation
-      .content-type-1#page1-sub2-page
-        %image{:width => "700px", :height => "150px", :src => "/images/content_pic_2.png"}
-        .box-text-long
-          %h2 Our Mission
-          %p Our mission, "healthy buildings, healthy people, healthy planet," is perhaps most evident in our design philosophy and practice. Design is the central focus for many an architecture firm, often becoming its brand and identity. At Kirksey, we agree that design is important; yet rather than defining who we are through a signature style or brand, design is a critical component of what we do — Service. Service to our clients, service to the building's users, service to the community, and to the environment.
-          %p It is our divine responsibility as architects, designers, and planners to design high-performing, healthy, and beautiful buildings that positively affect the people, environment, and communities they serve. For each project, we first consider our client's goals and programmatic needs — both immediate and future — then integrate those with site and climate conditions, and the project's role within its community and environment. Great design, and consequently great service, can be accomplished only through the consideration and balancing of all of these factors.
-        .box-text-short
-          %p.slogan Healthy Buildings Healthy People
       .content-type-1#page1-sub3-page
         %image{:width => "700px", :height => "150px", :src => "/images/content_pic_3.jpg"}
         .box-text-long
@@ -120,15 +114,17 @@
   .content-container#page4
     #page-4-content
       .page-title Portfolio
-      %ul.submenu{:style => "opacity: 0;"}
+      %ul.submenu
         %li.dark-blue#page4-sub1
-          %a{:href => "#"} 
+          %a{:href => "#"} Gallery
+        %li.blue#page4-sub2
+          %a{:href => "#"} Blueprints
       .content-type-1#page4-sub1-page
         %image{:width => "700px", :height => "150px", :src => "/images/content_pic_6.jpg"}
         .box-text-long
-          %br
+          %h1 Gallery
           %p They inform and inspire everything we do, as put forth in our mission: Healthy buildings, healthy people, healthy planet. It is our divine responsibility as architects, designers, and planners to design high-performing, healthy, and beautiful buildings that positively affect the people, environment, and communities they serve.
-          %p And a bit more specifically,
+          %p And a bit more specifically
           %h2 Antoine Store
           %a{:href => "/images/pics/antoineStore/1_big.jpg", :rel => "lightbox[antoineStore]"}
             %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/1.jpg"} 
@@ -142,43 +138,104 @@
             %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/5.jpg"}
           %a{:href => "/images/pics/antoineStore/6_big.jpg", :rel => "lightbox[antoineStore]"} 
             %image{:width => "50px", :height => "100px", :src => "/images/pics/antoineStore/6.jpg"} 
-          %h2 Community
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %h2 Residential
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-          %a{:href => "/images/dummy_big.jpg", :rel => "lightbox[dummygallery]"}
-            %image{:width => "50px", :height => "100px", :src => "/images/dummy_small.jpg"}
-
-        .box-text-short
-          %p.slogan Design to impress & Build to last     
+      .content-type-1#page4-sub2-page
+        %image{:width => "700px", :height => "150px", :src => "/images/content_pic_2.png"}
+        .box-text-half
+          %h2 Antoine Store
+          %a.download{:href => "/images/pdf/antonieGasStation/fireCodeDesign.pdf", :target => "_blank"}Fire Code Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/antonieGasStation/floorPlanDesign.pdf", :target => "_blank"}Floor Plan Design - Download (PDF)
+          %br
+          %br
+          %h2 Anahuac Convenience Store
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/civilDesign.pdf", :target => "_blank"}Civil Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/floorPlanDesign.pdf", :target => "_blank"}Floor Plan Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/fundationFloorPlan.pdf", :target => "_blank"}Foundation Floor Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/plumbingDesign1.pdf", :target => "_blank"}Plumbing Design #1 - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/plumbingDesign2.pdf", :target => "_blank"}Plumbing Design #2 - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/structuralDesign.pdf", :target => "_blank"}Structural Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/anahuacConvenienceStore/stucturalCanopyDesign.pdf", :target => "_blank"}Structural Canopy Design - Download (PDF)
+          %br
+          %br
+          %h2 Build Out
+          %a.download{:href => "/images/pdf/buildout/Electrical Diagrams E-4.pdf", :target => "_blank"}Electrical Diagrams - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Electrical Loads E-3.pdf", :target => "_blank"}Electrical Loads - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Electrical Plans E-1.pdf", :target => "_blank"}Electrical Plan #1 - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Electrical Plans E-2.pdf", :target => "_blank"}Electrical Plan #2 - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Health Plans.pdf", :target => "_blank"}Health Plans - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Hood Designs for Restaurants.pdf", :target => "_blank"}Hood Designs for Restaurant - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Mechanical Designs Air Condition Design.pdf", :target => "_blank"}Mechanical Designs Air Condition - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout/Plumbing Plans Designs.pdf", :target => "_blank"}Plumbing Plans Designs - Download (PDF)
+          %br
+          %br
+          %h2 White Oak Gas Station
+          %a.download{:href => "/images/pdf/whiteOakGasStation/ELECTRICAL DESIGNS.pdf", :target => "_blank"}Electrical Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/whiteOakGasStation/FLOOR PLAN DESIGN.pdf", :target => "_blank"}Floor Plan Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/whiteOakGasStation/PLUMBING DESIGNS.pdf", :target => "_blank"}Plumbing Floor Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/whiteOakGasStation/STRUCTURAL CANOPY DESIGNS.pdf", :target => "_blank"}Structural Canopy Design - Download (PDF)
+        .box-text-half{:style => "border-right: 0px solid #DAD7C5;margin-left: 20px"}
+          %h2 Build Out (La Botana)
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/ELECTRICAL DESIGN.pdf", :target => "_blank"}Electrical Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/FLOOR PLAN.pdf", :target => "_blank"}Floor Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/HEALTH PLAN.pdf", :target => "_blank"}Health Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/HOOD DESIGN.pdf", :target => "_blank"}Hood Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/LOAD ANALYSIS DESIGNS.pdf", :target => "_blank"}Load Analysis - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/LOAD ELECTRICAL DESIGNS.pdf", :target => "_blank"}Load Electrical Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/MECHANICAL DESIGN.pdf", :target => "_blank"}Mechanical Designs - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/buildout(LaBotana)/POWER DESIGN.pdf", :target => "_blank"}Power Design - Download (PDF)
+          %br
+          %br
+          %h2 Kirbville Warehouse
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/DIAGRAM LOADS.pdf", :target => "_blank"}Electrical Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/ELECTRICAL DESIGN.pdf", :target => "_blank"}Floor Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/ELECTRICAL LOADS.pdf", :target => "_blank"}Health Plan - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/ELEVATION DESIGN.pdf", :target => "_blank"}Hood Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/FLOOR PLAN DESIGN.pdf", :target => "_blank"}Load Analysis - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/kirbivilleWarehouse/SITE PLAN DESIGN.pdf", :target => "_blank"}Load Electrical Design - Download (PDF)
+          %br
+          %br
+          %h2 Patio Design
+          %a.download{:href => "/images/pdf/patioDesign/FOUNDATION PATIO DESIGNS.pdf", :target => "_blank"}Foundation & Patio Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/patioDesign/STRUCTURAL DESIGN.pdf", :target => "_blank"}Structural Design - Download (PDF)
+          %br
+          %br
+          %br
+          %h2 Tierra Caliente Bakery
+          %a.download{:href => "/images/pdf/TierraCalienteBakery/FLOOR PLAN DESIGN.pdf", :target => "_blank"}Floor Plan Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/TierraCalienteBakery/HEALTH DESIGN.pdf", :target => "_blank"}Health Design - Download (PDF)
+          %br
+          %a.download{:href => "/images/pdf/TierraCalienteBakery/WALKING COOLER DESIGNS.pdf", :target => "_blank"}Walking Cooler Design - Download (PDF)
+          %br
   .content-container#page5
     #page-5-content
       .page-title Contact
@@ -195,7 +252,7 @@
           %h2 Address 
           %p 611 Houston Ave, HOUSTON, Texas 7007
         .box-text-short
-          %p.slogan 713-223-1600
+          %p.slogan
   .upper-footer
     All contents &copy; copyright 2010 - 2011  Eclipse. All rights reserved     |    Terms & conditions    |    Privacy policy    |    Terms of use     
   //footer
