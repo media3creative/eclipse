@@ -295,6 +295,16 @@ ul li {
   border-right: 1px solid #dad7c5;
 }
 
+.box-contact {
+  float: left;
+  width: 350px;
+  padding-left: 20px;
+  height: auto;
+  background-color: white;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 5px;
+}
+
 .box-text-short {
   float: left;
   width: 245px;
